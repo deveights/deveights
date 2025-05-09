@@ -7,7 +7,14 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: Text('Hello World I\'m Erish Sounder Latorre Mobile Developer'),
+        child: Text(
+          'Hello World I\'m Erish Sounder Latorre Mobile Developer',
+          style: TextStyle(
+            fontWeight: FontWeight.bold,
+            fontSize: 40,
+            color: Colors.black,
+          ),
+        ),
       ),
     );
   }
