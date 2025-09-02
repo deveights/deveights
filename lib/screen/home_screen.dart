@@ -13,7 +13,7 @@ class HomeScreen extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(
-              'Yo, I’m Erish Flutter powered mobile developer & DevOps tinkerer',
+              'Yo, I’m Erish Flutter powered mobile developer & DevOps Tinkerer',
               style: TextStyle(
                 fontWeight: FontWeight.bold,
                 fontSize: 40,
