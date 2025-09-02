@@ -8,15 +8,29 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: AnimatedTextKit(
-          animatedTexts: [
-            TyperAnimatedText(
-              'Hello World I\'m Erish Sounder Latorre Mobile Developer',
-              textStyle: TextStyle(
+        child: Column(
+          spacing: 32,
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Text(
+              'Yo, I’m Erish Flutter powered mobile developer & DevOps tinkerer',
+              style: TextStyle(
                 fontWeight: FontWeight.bold,
                 fontSize: 40,
                 color: Colors.black,
               ),
+            ),
+            AnimatedTextKit(
+              animatedTexts: [
+                TyperAnimatedText(
+                  'Building apps with Flutter | Automating with DevOps',
+                  textStyle: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    fontSize: 26,
+                    color: Colors.black,
+                  ),
+                ),
+              ],
             ),
           ],
         ),
